@@ -1,0 +1,71 @@
+{
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "extensions.autoUpdate": false,
+    "json.schemaDownload.enable": false,
+    "extensions.autoCheckUpdates": false,
+    "git.ignoreLegacyWarning": true,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Courier New",
+    "editor.fontLigatures": false,
+    "git.enableSmartCommit": true,
+    "editor.minimap.showSlider": "always",
+    "files.autoSave": "afterDelay",
+
+    "editor.bracketPairColorization.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "variables": "#ffffff",
+        "textMateRules": [
+            {
+                "scope": [
+                    "storage.type.function.systemverilog",
+                    "storage.type.class.systemverilog",
+                    "keyword.control.systemverilog",
+                    "keyword.other.systemverilog"
+                ],
+                "settings": {
+                    "foreground": "#ffbfbf",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [ 
+                    "storage.type.user-defined.systemverilog",
+                    "entity.name.type.class.systemverilog",
+                    "source.systemverilog"
+                ],
+                "settings": {
+                    "foreground": "#fffb82",
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.systemverilog",
+                ],
+                "settings": {
+                    "foreground": "#f2b9ff"
+                }
+            },
+        ]
+    },
+    
+    "workbench.colorCustomizations": {
+        
+
+        "editor.findMatchHighlightBackground": "#858000",
+        "editor.selectionHighlightBackground": "#5f5f5f",
+        "editor.background": "#000000",
+        "activityBar.background": "#000000",  
+        "titleBar.activeBackground": "#000000",  
+        "terminal.background": "#000000"  
+    },
+    "editor.minimap.size": "fill",
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": 2,
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "never"
+}
