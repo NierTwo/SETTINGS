@@ -24,7 +24,7 @@
                     "storage.type.function.systemverilog",
                     "storage.type.class.systemverilog",
                     "keyword.control.systemverilog",
-                    "keyword.other.systemverilog"
+                    "keyword.other.systemverilog",
                 ],
                 "settings": {
                     "foreground": "#fffb82",
@@ -33,11 +33,19 @@
             },
             {
                 "scope": [ 
-                    "storage.type.user-defined.systemverilog",
-                    "entity.name.type.class.systemverilog"
+                    "entity.name.type.module.systemverilog"
                 ],
                 "settings": {
-                    "foreground": "#ff7e7e"
+                    "foreground": "#7effe3"
+                }
+            },
+            {
+                "scope": [ 
+                    "storage.type.user-defined.systemverilog",
+                    "entity.name.type.class.systemverilog",
+                ],
+                "settings": {
+                    "foreground": "#ffcdcd"
                 }
             },
             {
@@ -50,16 +58,17 @@
             },
             {
                 "scope": [
-                    "entity.name.function.systemverilog"
+                    "entity.name.function.systemverilog",
                 ],
                 "settings": {
-                    "foreground": "#f4c4ff"
+                    "foreground": "#e5c4ff"
                 }
-            }
+            },
         ]
     },
     
     "workbench.colorCustomizations": {
+        
 
 
 
