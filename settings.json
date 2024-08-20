@@ -12,7 +12,6 @@
     "editor.fontFamily": "Courier New",
     "editor.fontLigatures": false,
     "git.enableSmartCommit": true,
-    "editor.minimap.showSlider": "always",
     "files.autoSave": "afterDelay",
 
     "editor.bracketPairColorization.enabled": false,
@@ -21,31 +20,33 @@
         "textMateRules": [
             {
                 "scope": [
+                    "constant.other.net.systemverilog"
+                ],
+                "settings": {
+                    "foreground": "#ffffff",
+                }
+            },
+            {
+                "scope": [
                     "storage.type.function.systemverilog",
                     "storage.type.class.systemverilog",
                     "keyword.control.systemverilog",
-                    "keyword.other.systemverilog",
+                    "keyword.other.systemverilog"
                 ],
                 "settings": {
                     "foreground": "#fffb82",
                     "fontStyle": "bold"
                 }
             },
-            {
-                "scope": [ 
-                    "entity.name.type.module.systemverilog"
-                ],
-                "settings": {
-                    "foreground": "#7effe3"
-                }
-            },
+
             {
                 "scope": [ 
                     "storage.type.user-defined.systemverilog",
-                    "entity.name.type.class.systemverilog"
+                    "entity.name.type.class.systemverilog",
+                    "support.type.scope.systemverilog"
                 ],
                 "settings": {
-                    "foreground": "#ffcdcd"
+                    "foreground": "#ffd1d1"
                 }
             },
             {
@@ -59,17 +60,29 @@
             {
                 "scope": [
                     "entity.name.function.systemverilog",
+                    "support.function.port.systemverilog"
                 ],
                 "settings": {
                     "foreground": "#e5c4ff"
                 }
-            }
+            },
+            {
+                "scope": [
+                    "invalid.unimplemented.todo.systemverilog"
+                ],
+                "settings": {
+                    "foreground": "#ff0000",
+                    "fontStyle": "bold"
+                }
+            },
         ]
     },
     
     "workbench.colorCustomizations": {
 
-    
+        "scrollbarSlider.activeBackground": "#ffffff84",
+        "scrollbarSlider.hoverBackground": "#ffffff84",
+        "scrollbarSlider.background": "#ffffff5f",
         "editor.findMatchHighlightBackground": "#858000",
         "editor.selectionHighlightBackground": "#5f5f5f",
         "editor.background": "#000000",
@@ -83,7 +96,8 @@
     "editor.matchBrackets": "never",
     "editor.hover.enabled": false,
     "editor.fontSize": 13,
-    "editor.minimap.size": "fill",
     "workbench.statusBar.visible": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill"
 }
