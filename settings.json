@@ -9,14 +9,13 @@
     "git.ignoreLegacyWarning": true,
     "editor.mouseWheelScrollSensitivity": 3,
     "editor.fontWeight": "normal",
-    "editor.fontFamily": "Courier New",
     "editor.fontLigatures": false,
     "git.enableSmartCommit": true,
-    "files.autoSave": "afterDelay",
 
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
         "variables": "#ffffff",
+        "functions": "#e5c4ff",
         "textMateRules": [
             {
                 "scope": [
@@ -57,15 +56,15 @@
                     "foreground": "#fffb82"
                 }
             },
-            {
-                "scope": [
-                    "entity.name.function.systemverilog",
-                    "support.function.port.systemverilog"
-                ],
-                "settings": {
-                    "foreground": "#e5c4ff"
-                }
-            },
+            // {
+            //     "scope": [
+            //         "entity.name.function.systemverilog",
+            //         "support.function.port.systemverilog"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#e5c4ff"
+            //     }
+            // },
             {
                 "scope": [
                     "invalid.unimplemented.todo.systemverilog"
@@ -80,24 +79,22 @@
     
     "workbench.colorCustomizations": {
 
-        "scrollbarSlider.activeBackground": "#ffffff84",
-        "scrollbarSlider.hoverBackground": "#ffffff84",
-        "scrollbarSlider.background": "#ffffff5f",
-        "editor.findMatchHighlightBackground": "#858000",
-        "editor.selectionHighlightBackground": "#5f5f5f",
+        "editor.findMatchHighlightBackground": "#87ff7e89",
         "editor.background": "#000000",
         "activityBar.background": "#000000",  
         "titleBar.activeBackground": "#000000",  
         "terminal.background": "#000000"  
     },
     "breadcrumbs.enabled": false,
-    "window.zoomLevel": 2,
     "editor.renderLineHighlight": "none",
     "editor.matchBrackets": "never",
     "editor.hover.enabled": false,
-    "editor.fontSize": 13,
+    "editor.fontSize": 16,
     "workbench.statusBar.visible": false,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.minimap.showSlider": "always",
-    "editor.minimap.size": "fill"
+    "editor.minimap.size": "fill",
+    "workbench.colorTheme": "Default Dark+",
+    "editor.stickyScroll.enabled": false,
+    "editor.smoothScrolling": true
 }
