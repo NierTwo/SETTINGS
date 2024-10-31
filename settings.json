@@ -30,7 +30,7 @@
                     "storage.type.function.systemverilog",
                     "storage.type.class.systemverilog",
                     "keyword.control.systemverilog",
-                    "keyword.other.systemverilog"
+                    "keyword.other.systemverilog",
                 ],
                 "settings": {
                     "foreground": "#fffb82",
@@ -79,7 +79,7 @@
     
     "workbench.colorCustomizations": {
 
-        "editor.findMatchHighlightBackground": "#87ff7e89",
+    
         "editor.background": "#000000",
         "activityBar.background": "#000000",  
         "titleBar.activeBackground": "#000000",  
@@ -87,7 +87,6 @@
     },
     "breadcrumbs.enabled": false,
     "editor.renderLineHighlight": "none",
-    "editor.matchBrackets": "never",
     "editor.hover.enabled": false,
     "editor.fontSize": 16,
     "workbench.statusBar.visible": false,
@@ -96,5 +95,8 @@
     "editor.minimap.size": "fill",
     "workbench.colorTheme": "Default Dark+",
     "editor.stickyScroll.enabled": false,
-    "editor.smoothScrolling": true
+    "editor.smoothScrolling": true,
+    "security.allowedUNCHosts": [
+        "192.168.30.138"
+    ]
 }
